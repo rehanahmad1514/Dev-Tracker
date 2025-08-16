@@ -5,7 +5,7 @@ const isDevelopment = process.env.NODE_ENV === 'development';
 // export const API_BASE_URL = isDevelopment 
 //              ? 'http://localhost:3000' 
 //              :'https://devtrack-backend-7xxu.onrender.com';
-export const API_BASE_URL ='http://localhost:3000' 
+export const API_BASE_URL ='https://dev-tracker-api.vercel.app' 
 
 
 export const API_URL = `${API_BASE_URL}/api/v1`;
